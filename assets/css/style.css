@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.freeshipping {
+    display: block;
+    width: 100vw;
+    height: 2rem;
+    background-color: lightsalmon;
+    overflow: hidden;
+    position: relative; 
+}
+
+.freetext {
+    position: absolute; 
+    white-space: nowrap; 
+    animation: free 10s linear infinite; 
+}
+
+@keyframes free {
+    0% {
+        transform: translateX(100vw); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
