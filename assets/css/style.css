@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -14,8 +14,8 @@ body {
 .freeshipping {
     display: block;
     width: 100vw;
-    height: 2rem;
-    background-color: lightsalmon;
+    height: 3rem;
+    background-color: rgba(247, 159, 142, 1);
     overflow: hidden;
     position: relative; 
 }
@@ -23,6 +23,8 @@ body {
 .freetext {
     position: absolute; 
     white-space: nowrap; 
+    color: white;
+    margin-top: 1rem;
     animation: free 10s linear infinite; 
 }
 
