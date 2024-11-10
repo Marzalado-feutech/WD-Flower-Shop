@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -24,8 +24,9 @@ body {
     position: absolute; 
     white-space: nowrap; 
     color: white;
+    font-weight: bold;
     margin-top: 1rem;
-    animation: free 15s linear infinite; 
+    animation: free 20s linear infinite; 
 }
 
 @keyframes free {
@@ -35,4 +36,99 @@ body {
     100% {
         transform: translateX(-100%); 
     }
+}
+
+.nav {
+    padding: 1rem 3% 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30%;
+}
+
+.search input[type=text] {
+    float: right;
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+
+.delivery {
+    width: 30%;
+}
+
+.header {
+    padding: 1rem 5%;           
+    background-color: white;    
+    display: flex;              
+    align-items: center;        
+    justify-content: space-between; 
+    position: relative;         
+    z-index: 1000; 
+}
+
+.innerheader {
+        display: flex;               
+        justify-content: center; 
+        align-items: center;        
+        margin: 1rem 0;            
+}
+
+.grid {
+    text-align: center;
+    padding: 0 3rem 0;
+    margin-inline: 2rem;
+}
+
+footer {
+    background-color: rgba(247, 159, 142, 1);
+    padding: 1rem 5% 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.abt {
+    width: 25%;
+    text-align: justify;
+}
+.cares {
+    width: 10%;
+}
+.contacts {
+    width: 15%;
+}
+.loc {
+    width: 20%;
+}
+
+.foot2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5rem 5% .5rem;
+}
+
+.watermark {
+    font-size: 0.9rem;
+}
+
+.socials {
+    /* Add styles for social media links here */
+}
+
+h3 {
+    font-size: medium;
 }
