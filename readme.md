@@ -116,8 +116,10 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
+| - | - | - |
 | FlowerStorePH | Website Reference | https://flowerstore.ph/ |
 | Font Awesome Icons | Icons | https://www.w3schools.com/w3css/w3css_icons.asp|
 | Google Fonts | Font | https://fonts.google.com/specimen/Poppins |
 | Pure CSS3 Infinitely sliding text animation (Infinite marquee) | Sliding Text | https://youtu.be/WWN-68aQ-Qk?si=gAJdSnQl7MSrGJkj |
 | How to Create a Professional eCommerce Website in HTML CSS And JavaScript - 2023 | Website Template | https://youtu.be/8EtqMN7aD7A?si=cafnojJzEZJRQigO |
+| How TO - Collapsibles/Accordion | Accordion Button | https://www.w3schools.com/howto/howto_js_accordion.asp |
