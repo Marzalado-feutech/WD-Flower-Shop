@@ -6,10 +6,10 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/hub/tbjGDRi8992A8FmdicmHpCnIt0YwSvpK8pjCNqS8.svg" alt="Nyebe" width=auto height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Flower Shop</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -123,3 +123,4 @@ WD-ProjectName
 | Pure CSS3 Infinitely sliding text animation (Infinite marquee) | Sliding Text | https://youtu.be/WWN-68aQ-Qk?si=gAJdSnQl7MSrGJkj |
 | How to Create a Professional eCommerce Website in HTML CSS And JavaScript - 2023 | Website Template | https://youtu.be/8EtqMN7aD7A?si=cafnojJzEZJRQigO |
 | How TO - Collapsibles/Accordion | Accordion Button | https://www.w3schools.com/howto/howto_js_accordion.asp |
+| How TO - Slideshow | Automatic Carousel | https://www.w3schools.com/howto/howto_js_slideshow.asp |
