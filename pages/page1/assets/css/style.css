@@ -473,5 +473,9 @@ footer {
         height: auto;
         margin-bottom: 0.5rem;
     }
+
+    footer {
+        flex-direction: row;
+    }
     
 }

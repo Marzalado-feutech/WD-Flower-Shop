@@ -423,5 +423,9 @@ footer {
         margin: 0;
         padding: 0;
     }
+    
+    footer {
+        flex-direction: row;
+    }
    
 }
