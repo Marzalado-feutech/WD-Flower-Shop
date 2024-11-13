@@ -190,7 +190,7 @@ nav img {
 
 .newcontent {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 2rem;
