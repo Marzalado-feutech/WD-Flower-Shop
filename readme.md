@@ -124,3 +124,4 @@ WD-ProjectName
 | How to Create a Professional eCommerce Website in HTML CSS And JavaScript - 2023 | Website Template | https://youtu.be/8EtqMN7aD7A?si=cafnojJzEZJRQigO |
 | How TO - Collapsibles/Accordion | Accordion Button | https://www.w3schools.com/howto/howto_js_accordion.asp |
 | How TO - Slideshow | Automatic Carousel | https://www.w3schools.com/howto/howto_js_slideshow.asp |
+| How TO - CSS/JS Modal | Modal Box | https://www.w3schools.com/howto/howto_css_modals.asp |
