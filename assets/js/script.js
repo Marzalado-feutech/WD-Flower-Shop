@@ -1,14 +1,3 @@
-document.querySelectorAll(".accordion").forEach(function(acc) {
-    acc.addEventListener("click", function() {
-      this.classList.toggle("active");
-      
-      var panel = this.nextElementSibling;
-      if (panel) {
-        panel.style.display = (panel.style.display === "block") ? "none" : "block";
-      }
-    });
-  });
-  
 
 let catToggle = document.querySelector('.cat-toggle');
 let catbar = document.querySelector('.catbar');
@@ -57,3 +46,73 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 3000);
   }
+
+  
+// Get the modal
+var modal = document.getElementById("myModali");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtni");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+  if (event.target == modali) {
+    modali.style.display = "none";
+  }
+  if (event.target == modalio) {
+    modalio.style.display = "none";
+  }
+};
+
+// Get the modal
+var modali = document.getElementById("myModalii");
+
+// Get the button that opens the modal
+var btni = document.getElementById("myBtnii");
+
+// Get the <span> element that closes the modal
+var spani = document.getElementsByClassName("closei")[0];
+
+// When the user clicks the button, open the modal 
+btni.onclick = function() {
+  modali.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spani.onclick = function() {
+  modali.style.display = "none";
+}
+// Get the modal
+var modalio = document.getElementById("myModaliio");
+
+// Get the button that opens the modal
+var btnii = document.getElementById("myBtniii"); // Ensure this ID matches the product button
+
+// Get the <span> element that closes the modal
+var spanii = document.getElementsByClassName("closeii")[0];
+
+// When the user clicks the button, open the modal
+btnii.onclick = function() {
+    modalio.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+spanii.onclick = function() {
+    modalio.style.display = "none";
+}

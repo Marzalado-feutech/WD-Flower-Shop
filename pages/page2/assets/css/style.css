@@ -182,6 +182,20 @@ nav img {
   to {opacity: 1}
 }
 
+/*about*/
+.abtus {
+    padding: 1rem  5% 1rem;
+}
+
+.abtus h2 {
+    font-size: var(--h1-font);
+    color: var(--main-color);
+}
+
+.abtus p {
+    font-size: var(--h4-font);
+}
+
 /*faqs*/
 
 .faqs h1 {

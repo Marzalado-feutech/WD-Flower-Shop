@@ -268,9 +268,124 @@ nav img {
     font-weight: 600;
     font-size: var(--h5-font);
     width: 100%;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     padding-bottom: 2rem;
 }
+
+.show a{
+    color: var(--text-color);
+}
+
+.show a:hover {
+    color: var(--main-color);
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    align-content: center;
+    padding: 0 30% 0;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: var(--bg-color);
+    margin: auto;
+    padding: 1rem 2% 1rem;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  .mdcnt {
+    padding: 1rem 5% 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: var(--small-font);
+  }
+  
+  .mdcnt p {
+    text-align: justify;
+    padding: 0 5% 0;
+  }
+
+  .mdcnt img {
+    padding: 5% 5% 5%;
+    width: 50%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.mdcnt h4 {
+    text-transform: uppercase;
+    font-weight: medium 200;
+    transition: all .50s ease;
+    font-size: var(--h4-font);
+}
+
+.mdcnt h5 {
+    font-size: var(--h5-font);
+}
+
+.mdcnt a{
+    color: var(--text-color);
+    font-size: var(--h4-font);
+}
+
+.mdcnt a:hover {
+    color: var(--main-color);
+}
+
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: var(--main-color);
+    cursor: pointer;
+  }
+
+  /* The Close Button */
+  .closei {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closei:hover,
+  .closei:focus {
+    color: var(--main-color);
+    cursor: pointer;
+  }
+
+  /* The Close Button */
+  .closeii {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeii:hover,
+  .closeii:focus {
+    color: var(--main-color);
+    cursor: pointer;
+  }
+
 
 /*Footer*/
 
