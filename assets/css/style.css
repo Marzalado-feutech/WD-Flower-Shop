@@ -286,7 +286,7 @@ nav img {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     align-content: center;
-    padding: 0 30% 0;
+    padding: 0 20% 0;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -558,6 +558,10 @@ footer {
 
   .newcontent {
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+}
+
+.modal {
+    padding: 0 15% 0;
 }
 
 }
