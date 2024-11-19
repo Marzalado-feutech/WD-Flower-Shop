@@ -1,57 +1,178 @@
-document.querySelectorAll(".accordion").forEach(function(acc) {
-    acc.addEventListener("click", function() {
-      this.classList.toggle("active");
-      
-      var panel = this.nextElementSibling;
-      if (panel) {
-        panel.style.display = (panel.style.display === "block") ? "none" : "block";
-      }
-    });
-  });
-  
-let catToggle = document.querySelector('.cat-toggle');
-let catbar = document.querySelector('.catbar');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
 
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-catToggle.onclick = (event) => {
-    event.preventDefault();
-    catbar.classList.toggle('active');
-};
+    <!--Icons-->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
+<body>
 
-window.onclick = (event) => {
-    if (!catToggle.contains(event.target) && !catbar.contains(event.target)) {
-        catbar.classList.remove('active');
-    }
-};
+    <!--Free Shipping-->
+    <header>
+        <div class="freeshipping">
+            <div class="freetext">
+                <span>Nationwide Delivery. FREE shipping on all orders.&nbsp;&nbsp;&nbsp;</span>
+            </div>
+        </div>
+    </header>
 
-  let menu = document.querySelector("#menu-icon");
-  let navbar = document.querySelector(".navbar");
+    <!--Navigation Bar-->
+    <nav>
+        <a href="#">
+            <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/hub/tbjGDRi8992A8FmdicmHpCnIt0YwSvpK8pjCNqS8.svg" alt="logo">
+        </a>
+
+        <ul class="navbar">
+            <li><a href="../../index.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fa fa-user"></i> FAQs</a></li>
+            <div class="cat-container">
+                <li><a href="../page1/index.html" class="cat-toggle"><i class="fa fa-th-large"></i> Shop</a></li>
+                <div class="catbar">
+                    <ul>
+                        <li><a href="../page1/index.html">11.11 Mega Sale</a></li>
+                        <li><a href="../page1/index.html">Best Sellers</a></li>
+                        <li><a href="../page1/index.html">Affordable Picks</a></li>
+                    </ul>
+                </div>
+            </div>
+            <li><a href="../page3/index.html"><i class="fa fa-phone"></i> Contacts</a></li>
+        </ul>
+
+        <div class="fa fa-bars" id="menu-icon"></div>
+
+    </nav>
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/banner/747_hP8Q66iUc0vKOSRV3sJuqdNa9.webp">
+    </div>
   
-  menu.onclick = () => {
-    menu.classList.toggle('fa-close');
-    navbar.classList.toggle('active');
-  };
+    <div class="mySlides fade">
+      <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/banner/747_rTi4GrvW7FG2Zm9CAva5BCFyV.webp">
+    </div>
   
-  window.onscroll = () => {
-    if (navbar.classList.contains('active')) {
-        menu.classList.remove('fa-close');
-        navbar.classList.remove('active');
-    }
-  };
-  
-  let slideIndex = 0;
-  showSlides();
-  
-  function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}
-      slides[slideIndex-1].style.display = "block";
-      setTimeout(showSlides, 5000);
-    }
-  
+    <div class="mySlides fade">
+      <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/banner/747_1U8Rt25H8Z5kiSOxjpBflyP2f.webp">
+    </div>
+  </div>
+
+    <br><hr><br>
+
+    <!--About-->
+    <div class="abtus">
+        <h2>Flower Delivery Metro Manila </h2> <br>
+        <p>
+            The vast choices found in FlowerStore.ph's online gift shop can pair you up with the perfect type of gift for any person in your life. Whether it's your family, friends, or coworkers, there will surely be a gift for them. Gift and flower delivery in Metro Manila is made easy with FlowerStore.ph's same-day delivery option. Get free same-day delivery to your office or even right at your doorstep. <br><br>
+            You can also honor the memories of your beloved ones with funeral flowers.
+        </p> <br>
+        <h2>Flower Delivery Cebu </h2> <br>
+        <p>
+            Looking to give a bouquet to a special someone miles away? We've got you covered. <br><br>
+            From Metro Manila, we are now bringing our expertly crafted floral bouquets and arrangements to Cebu! Gift and flower delivery to Cebu has never been easier with FlowerStore.ph's expert delivery services. Explore an online store with hundreds of gifts and arrangements specially made for several occasions. <br> <br>
+            Looking for a flower shop near you? FlowerStore.ph offers free same-day delivery of expertly crafted flower arrangements to over 50 cities in the Philippines. <br> <br>
+            Looking for a reliable flower shop in Quezon City? Look no further than FlowerStore.ph. Our fast and easy online ordering process ensures your loved ones receive the perfect gift on time.
+        </p><br>
+        <h2>Send Flowers and Gifts to the Philippines </h2> <br>
+        <p>
+            Away from Home? No Problem!<br><br>
+            Send flowers and gifts to the Philippines easily with FlowerStore.ph. Whether it is a small or large bouquet or even a special gift package, FlowerStore.ph has got you covered. Trust your special surprises to your loved ones in the Philippines with FlowerStore.ph's professional gift and flower delivery services. Your family or significant other will surely feel your love even though you are oceans away.
+        </p><br>
+    </div>
+
+    <!--FAQs-->
+    <div class="faqs">
+        <h1>Frequently Asked Questions (FAQs):</h1><br>
+        <button class="accordion">What's the symbolism behind sunflowers?</button>
+            <div class="panel">
+                <p>
+                    Sunflowers symbolize adoration, loyalty, and longevity, making them a wonderful choice to express deep feelings and appreciation.
+                </p>
+            </div><br>
+        <button class="accordion">What kind of flowers are suitable for funeral flowers?</button>
+            <div class="panel">
+                <p>
+                    Funeral flowers often include white lilies, roses, chrysanthemums, and carnations, chosen for their serene and comforting qualities.
+                </p>
+        </div><br>
+        <button class="accordion">How do I choose the perfect flower bouquet?</button>
+            <div class="panel">
+                <p>
+                    Consider the recipient's preferences, the occasion, and the intended message when choosing a flower bouquet. Each bloom carries its own meaning, contributing to the overall sentiment.
+                </p>
+        </div><br>
+        <button class="accordion">How can I make dried flowers last longer?</button>
+            <div class="panel">
+                <p>
+                    To extend the lifespan of dried flowers, keep them away from direct sunlight and humid environments. Gently dust them regularly to maintain their appearance.
+                </p>
+        </div><br>
+        <button class="accordion">What is a money bouquet and how can I create one?</button>
+            <div class="panel">
+                <p>
+                    A money bouquet is a creative gift where bills are folded and arranged like flowers. FlowerStore.ph offers pre-made money bouquets, saving you time while providing a unique present.
+                </p>
+        </div><br>
+    </div>
+
+    <!--Footer-->
+        <footer>
+            <div class="foot1">
+                <section class="abt">
+                    <img src="https://assets.flowerstore.ph/public/tenantPH/app/assets/images/hub/tbjGDRi8992A8FmdicmHpCnIt0YwSvpK8pjCNqS8.svg" alt="logo">
+                    <p>NCR: Haig 283, 1550, Mandaluyong</p><br>
+                    <p>Send beautiful, affordable flowers and gifts from only P399 with Free Same-Day Delivery in Metro Manila, Metro Cebu, Davao, and other selected areas. FlowerStore.ph is the Philippines' No. 1 Online Gift Store providing all types of flower bouquets and gifts for all your needs! Cash On Delivery is accepted. No Credit Card required. Perfect for Birthdays, Anniversaries, Romance, I'm sorry, Valentine's Day, Mother's Day, and all other occasions. We also deliver sympathy funeral flowers.</p>
+                    <br>
+                    
+                </section>
+                <section class="care">
+                    <h3>CUSTOMER CARE</h3><br>
+                    <a href="">Contact Us</a><br>
+                    <a href="">FAQs</a><br>
+                    <a href="">Payment Methods</a><br>
+                    <a href="">Return & Exchange</a><br>
+                    <a href="">Terms & Conditions</a><br>
+                    <a href="">Privacy Policy</a><br>
+                    <!-- Customer care links can be added here -->
+                </section>
+                <section class="contacts">
+                    <h3>GOT QUESTIONS?</h3><br>
+                    <h5>Mon - Sun 6AM - 12AM</h5>
+                    <h5>Phone:</h5>
+                    <a href="tel:PH - +63 (02) 8540 9773">PH - +63 (02) 8540 9773</a>
+                    <h5>Email:</h5>
+                    <a href="mailto:contact@flowerstore.ph">contact@flowerstore.ph</a>
+                    <h5>Marketing and Corporate:</h5>
+                    <a href="mailto:corporate@flowerstore.ph">corporate@flowerstore.ph</a>
+                    <!-- Contact information can be added here -->
+                </section>
+                <section class="loc">
+                    <h3>OUR BRANCHES</h3><br>
+                    <p>NCR: Haig 283, 1550, Mandaluyong</p><br>
+                    <p>Cebu City: A. Borromeo St, Borromeo Plaza II, 6000 Cebu</p><br>
+                    <p>Davao City: Araullo Extension, Davao City, 8000 Davao del Sur</p><br><!-- Branch information can be added here -->
+                </section>
+            </div>
+            <div class="foot2">
+                    <p> &#169; 2024 Blue Aurora Solutions Inc.</p>
+            </div>
+        </footer>
+
+    <!--JavaScript-->
+    <script src="../page2/assets/js/scripts.js"></script>
+
+</body>
+
+</html>
