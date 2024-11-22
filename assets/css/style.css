@@ -86,6 +86,7 @@ nav {
 nav img {
     width: 60%;
     height: auto;
+    padding-right: 2rem;
 }
 
 .navbar {
