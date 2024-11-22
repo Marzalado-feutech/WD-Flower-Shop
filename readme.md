@@ -18,6 +18,8 @@
 
 <br />
 
+<a href="https://wakatime.com/badge/user/a749236e-760f-4d4f-a2a9-9d1094a22d19/project/1493f265-7f44-4b38-a0f4-69318c05b27a"><img src="https://wakatime.com/badge/user/a749236e-760f-4d4f-a2a9-9d1094a22d19/project/1493f265-7f44-4b38-a0f4-69318c05b27a.svg" alt="wakatime"></a>
+
 ![](https://visit-counter.vercel.app/counter.png?page=Marzalado-feutech/WD-Flower-Shop)
 
 ---
