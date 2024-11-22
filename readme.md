@@ -48,7 +48,6 @@
 ---
 
 ## Overview
-Description of the project in details.
 
 The project is about rebranding the website layout of an existing floral store. The main objectives of this project is to be familiarized with the application of html, css, and javascript and to make a responsive website.
 
